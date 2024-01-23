@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.fundo{
+    background-color: #FAC3E0;
+}
+
+.tarefas{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.fundo .tarefas .to{
+    color: #ffffff;
+}
+
+.fundo .tarefas .do{
+    color: #E032BA;
+}
+
+.components{
+    background-color: #ffffff;
+    width: 245px;
+}
+
+.componentes{
+    
+}
