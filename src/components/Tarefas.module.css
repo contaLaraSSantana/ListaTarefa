@@ -5,6 +5,7 @@
 
 .fundo{
     background-color: #FAC3E0;
+    height: 100vh;
 }
 
 .tarefas{
@@ -23,10 +24,57 @@
 }
 
 .components{
-    background-color: #ffffff;
-    width: 245px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
 }
 
 .componentes{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.confirma{
+    background-color: #E032BA;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.buttonmais{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonmais button{
+    background-color: #E032BA;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.text{
+    border-radius: 5px;
+}
+
+.delete{
+    background: transparent;
+    border: none;
+    width: 13px;
+}
+
+.caixa{
+    border-style: solid;
+    border-color: #E032BA;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-left: 350px;
+    margin-right: 350px;
 }

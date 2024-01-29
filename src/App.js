@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Tarefas from "./components/Tarefas";
 import './App.css';
 
